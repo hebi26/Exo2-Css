@@ -1,9 +1,9 @@
 # Exercice- Intégration maquette
  
  
-####
+#preview
 
-* Réaliser la maquette du site one page en Html5 et Css3 (voir maquette.jpg)
+#https://htmlpreview.github.io/?https://github.com/hebi26/Exo2-Css/blob/master/index.html
 
     
 

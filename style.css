@@ -11,9 +11,9 @@ main {
 }
 
 .stitre {
-  display: flex;
   margin: auto;
   width: 60%;
+  display: flex;
   filter: opacity(60%);
 }
 
@@ -38,19 +38,19 @@ header{
 }
 
 .logo{
-  display: flex;
   position: absolute;
   left: 20%;
   top: 4%;
   width: 4vw;
   height: 4vw;
+  display: flex;
 }
 
 .titre {
-  width : 60%;
   top: 20%;
   left: 20%;
   position: absolute;
+  width : 60%;
   font-family: "Helvetic";
   color: white;
 }
@@ -61,12 +61,15 @@ header{
   top: 4%;
   width: 40%;
 }
+li {
+  display: inline;
+}
 
 .menu a {
-  text-decoration: none;
-  color: white;
   margin-left: 6.8%;
   font-size: 0.8vw;
+  color: white;
+  text-decoration: none;
   font-weight: bolder;
 }
 
@@ -85,9 +88,9 @@ h2 {
 .button1 {
 
   margin-top: 5.5vw;
-  width: 20%;
   padding-top: 1.5%;
   padding-bottom: 1.5%;
+  width: 20%;
   border-radius: 5px;
   border: none;
   background-color: rgb(244, 126, 54);
@@ -120,10 +123,9 @@ margin: 1vw;
 }
 
 .image {
-
+  margin-right: 4vw;
   width: 40%;
   height: auto;
-  margin-right: 4vw;
 }
 
 #imageB {
@@ -410,8 +412,8 @@ i {
   margin: 1vw auto auto auto;
   border-radius: 5px;
   border: none;
-  padding-top: 3vw;
-  padding-bottom: 3vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
 }
 
 label {
@@ -422,6 +424,7 @@ label {
 
 .button3 {
   filter: opacity(100%);
+  margin-top: 3vw;
   padding-top: 1vw;
   padding-bottom: 1vw;
   width: 40%;

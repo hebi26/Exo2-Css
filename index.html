@@ -11,18 +11,18 @@
   <body>
     <main>
       <header>
-          <img id="back" src="img/image1.jpg"/>
+          <img id="back" src="img/image1.jpg" alt="fond1"/>
           <div class="logo">
             <img src="img/logo.png" alt="logo"/>
           </div>
           <nav>
             <ul class="menu">
-              <a href="#">Services</a>
-              <a href="#">Portfolio</a>
-              <a href="#">Testimonials</a>
-              <a href="#">Team</a>
-              <a href="#">Contact</a>
-              <a href="#">Archives ⌄</a>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Archives ⌄</a></li>
             </ul>
           </nav>
           <div class="titre">
@@ -84,11 +84,11 @@
       </div>
 
       <ul class="menu2">
-        <a id="aspec" href="#">All</a>
-        <a href="#">Design</a>
-        <a href="#">Illustration</a>
-        <a href="#">Logo Design</a>
-        <a href="#">Typography</a>
+        <li><a id="aspec" href="#">All</a></li>
+        <li><a href="#">Design</a></li>
+        <li><a href="#">Illustration</a></li>
+        <li><a href="#">Logo Design</a></li>
+        <li><a href="#">Typography</a></li>
       </ul>
 
       <section class="section2">
@@ -146,7 +146,7 @@
      </section>
 
      <section class="section4">
-       <img id="back2" src="img/image2.jpg"/>
+       <img id="back2" src="img/image2.jpg" alt="fond2"/>
          <div class="content1">
            <h3>A Static content section</h3>
            <h2>A Handly shortcode for intro text allows you to style text like that. Which is cool.</h2><hr>
@@ -191,20 +191,20 @@
          <article id="art2">
            <h5>Send us direct message</h5>
 
-           <form name="contact" method="post" action="index.html">
-           <input class="formulaire" type="text" name="name"/></br>
-           <label for="name">Your name</label></br></br>
-           <input class="formulaire" type="email" name="usermail"></br>
-           <label for="usermail">Your mail</label></br></br>
-           <input id="biginput" type="text" name="describe"></br>
-           <label for="describe">Enter your message here</label></br></br>
+           <form name="contact" method="post" action="recup.php">
+           <input class="formulaire" type="text" required="required" pattern="^[_a-zA-Z0-9-]+$" name="name"/>
+           <label for="name"><br>Your name<br></label>
+           <input class="formulaire" type="email" required="required" pattern="[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})" name="usermail">
+           <label for="usermail"><br>Your mail<br></label>
+           <textarea id="biginput" name="describe" required="required" maxlength="1000" rows="8" cols="45"></textarea>
+           <label for="describe"><br>Enter your message here<br></label>
            <input class="button3" type="submit" name="valider" value="Send Message"/>
            </form>
          </article>
        </section>
 
        <section class="section6">
-         <img id="back3" src="img/image3.jpg"/>
+         <img id="back3" src="img/image3.jpg" alt="fond3"/>
          <div class="endbox">
             <h3>From Our Blog</h3>
             <div class="ending">
